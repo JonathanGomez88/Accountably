@@ -24,6 +24,7 @@ $(document).ready(function() {
       $("#name-input").val("");
       $("#phoneNumber-input").val("")
     });
+    
   
     // Does a post to the signup route. If successful, we are redirected to the members page
     // Otherwise we log any errors
