@@ -37,8 +37,8 @@ $(document).ready(function () {
             })
             completedBtn.text("Completed");
             console.log(data[i]);
-         $("#goalInfo").append(data[i].goal);
-         $("#goalInfo").append(data[i].goalDate);
+         $("#goalInfo").append("<br> Goal: " + data[i].goal);
+         $("#goalInfo").append("<br> Date: " + data[i].goalDate);
          $("#goalInfo").append(updateBtn);
          $("#goalInfo").append(btn);
         // $("#goalsInfo").append(`<button class='delete' data-id='${data[i].id}'>Delete</button>`);
